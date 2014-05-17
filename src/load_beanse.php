@@ -9,6 +9,12 @@ var_dump($contact);*/
 /* $contact=R::loadAll('contacts');
 var_dump($contact); */
 
-#Finding (If you do not know the ID of a bean, you can search for beans like this:)
-$contact=R::findAll('contacts');
+##Finding
+#FindingAll (If you do not know the ID of a bean, you can search for beans like this:)
+/*$contact=R::findAll('contacts');
+var_dump($contact);*/
+
+#findOne
+$contact=R::findOne('contacts');
 var_dump($contact);
+
